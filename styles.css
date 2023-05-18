@@ -115,6 +115,11 @@ input,label {
     display: block;
 }
 
+input:focus {
+    border: solid pink 2px;
+    outline: none;
+}
+
 input {
     appearance: none;
     border: solid rgb(179, 179, 179) 2px;
@@ -145,6 +150,8 @@ a {
     font-weight: bold;
     color: rgb(199, 149, 157);
 }
+
+
 
 
 
