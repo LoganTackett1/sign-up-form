@@ -6,7 +6,10 @@
 html,body {
     height: 100%;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
 }
+
+/*Side Bar*/
 
 body {
     display: flex;
@@ -57,3 +60,95 @@ form {
     margin: 0;
     align-self: flex-end;
 }
+
+/*Form*/
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+form > div {
+    height: 100%;
+    width: 100%;
+}
+
+.section1, .section3 {
+    background-color: rgba(245, 245, 245, 0.555);
+}
+
+.section1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.section1 > .container {
+    align-self: flex-end;
+    padding: 40px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.section2 {
+    padding: 20px 40px;
+    box-shadow: 0px 3px 3px rgba(43, 43, 43, 0.20);
+}
+
+.section2 > .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.section2 > .container > div {
+    margin-top: 20px;
+    width: 40%;
+}
+
+input,label {
+    display: block;
+}
+
+input {
+    appearance: none;
+    border: solid rgb(179, 179, 179) 2px;
+    border-radius: 5px;
+    width: 80%;
+    height: 20px;
+}
+
+.section3 {
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+button {
+    width: 200px;
+    height: 65px;
+    background-color: rgb(199, 149, 157);
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 35px;
+    margin-bottom: 10px;
+    box-shadow:3px 3px 3px rgba(43, 43, 43, 0.20);
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(199, 149, 157);
+}
+
+
+
+
+
+
+
