@@ -1,0 +1,59 @@
+@font-face {
+    font-family: Moderna;
+    src: url(MODERNA_.TTF);
+}
+
+html,body {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+}
+
+.sidebar {
+    flex: 6;
+    background-image: url(refined-young-woman-pink-sleep-mask-posing-with-clock.jpg);
+    background-size: auto 100vh;
+    background-position-x: center;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+}
+
+.logo {
+    width: 100%;
+    height: 30vh;
+    background-color: rgba(43, 43, 43, 0.40);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    font-family: Moderna, sans-serif;
+    font-size: 60px;
+    color: white;
+
+    position: absolute;
+    top: 20vh;
+}
+
+.logo img {
+    height: 45%;
+    filter: invert(100%);
+}
+
+form {
+    flex: 8;
+}
+
+.sidebar > p {
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+    align-self: flex-end;
+}
